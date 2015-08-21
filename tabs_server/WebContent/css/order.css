@@ -1,0 +1,157 @@
+/**************航班查询页面******************/
+table.searchFlight {
+    width:97%;margin-top:5px;
+}
+td.search_dateorder {
+	text-align: left; line-height: 22px; padding-left: 4px; height: 22px; 
+}
+td.select_pepole_header {
+	text-align: left; line-height: 24px; padding-left: 4px; height: 24px;
+}
+table.tickets {
+	margin-top: 10px;width:97%;
+}
+table.tickets td {
+	line-height: 22px;
+	text-align: center;
+}
+table.tickets .td_bg_left {
+	text-align: left;padding-left: 4px;
+}
+.aclogo_dxh{
+	width:100%;	height:12%;	margin: 0;padding: 0;
+}
+.f_down {
+	margin:0px;	padding:0px;display:block;
+}
+.f_up {
+	margin:0px;	padding:0px;display:block;
+}
+td.dotbottom{
+    height:1px;
+}
+
+/***********预付订单页面*************/
+table.order_person_header,
+table.order_person_detail
+{
+    width:97%; 
+}
+table.order_person_header tr
+{
+    vertical-align:bottom;height:38px;
+}
+td.alignRight {
+    text-align:right;
+}
+td.alignCenter {
+    text-align:center;
+}
+td.alignLeft {
+    text-align:left;
+}
+table.order_person_info {
+    width:97%;
+}
+table.order_person_info  tr {
+    height:25px;    
+}
+table.order_person_info td {
+	text-align:center;
+}
+table.order_person_info th {
+	font-size:12px;	text-align:center;
+}
+table.order_flight{
+    width:97%;text-align:center;
+}
+td.paddingLeft
+{
+    padding-left:50px;text-align:left;padding-top:5px;padding-bottom:3px;
+}
+td.td_bottom {
+    padding-bottom:3px;
+}
+table.order_person_detail td{
+    padding-right:10px; 
+}
+div.order_success_info {
+	width: 539px;
+	padding-left: 40px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	clear: both;
+	font-weight: normal;
+	background-repeat: no-repeat;
+	background-position: 0;
+	height: 30px;
+}
+/***********联程查询页面*************/
+table.multiway {
+    width:96%;text-align:center;
+}
+
+table.multiway td.headerInfo{
+    padding:5px;text-align:left;
+}
+
+td.flight_line {
+    width:65px;padding: 2px; height: 25px; line-height: 25px;
+}
+td.flight_city {
+    padding: 2px; 
+}
+td.line_seperate {
+	width:1px;
+}
+td.search_button {
+    text-align:left;padding-left:10px;
+}
+
+/***********订单详细信息页面*************/
+body.orderdetail {
+    margin:0;	padding:0;	font-size:12px;	font-family:"宋体";	margin:0 auto; 	text-align:center;
+}
+table.width97percent {
+    width:97%;
+}
+table.table_orderdetail{
+    margin:20px auto 0px auto; text-align:center;width:96%;
+}
+td.table_orderdetail_title{
+    font-weight:700;height:36px;vertical-align:middle;
+}
+td.orderdetail_header{
+    padding-bottom:3px;font-family:"宋体";font-size:12px;font-weight:700;height:38px;vertical-align:bottom;
+}
+table.table_orderdetail_info{
+    margin-top:10px;
+}
+td.info_title{
+    text-align:left;height:30px;padding-left:10px;
+}
+.personInfo {    
+    padding-top:5px;font-weight:700;height:26px;text-align:left;
+}
+table.left_top_orderpaid {
+	width:100%;
+	height:50px;
+}
+td.right_bottom_title {
+	text-align:center;width:40px;
+}
+td.right_bottom_title_bg {
+	text-align:center;
+}
+td.right_bottom_orderpaid {
+	text-align:center;
+}
+table.left_top_orderpaid_detail {
+    margin-top:10px;
+	width:100%;
+	height:70px;
+}
+input.orderpaid_botton_sty {
+	height: 28px;width:70px;font-size: 9pt;font-family: "宋体";line-height: 100%;padding-top: 2px;cursor:pointer;margin-top:10px;margin-bottom:15px;
+}
+

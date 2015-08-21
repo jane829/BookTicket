@@ -1,0 +1,119 @@
+client:
+-------------------------------
+怎样使用android 发送http请求，处理http响应
+在android端怎么解析json字符串
+注册业务
+网点查询
+
+
+
+发送get请求 
+HttpClient=new DefaultHttpClient();
+HttpGet get=new HttpGet("login.do?name=&ddd=dd");
+httpResponse =client.execute(get);
+
+
+
+发送httppost请求 
+HttpClient=new DefaultHttpClient();
+post=HttpPost(uri)
+post.setHeader("Content-Type","");
+
+pairs=new ArrayList<NameValuePair>();
+pairs.add(new BasicNameValuePair(key, value));
+new URLEncodedFormEntity(pairs);
+post.setEntity();
+
+client.execute(post);
+HttpResponse resp;
+
+resp.getEntity(); 
+EntityUtils.toString(resEntity);
+
+
+怎样解析json字符串 
+str={result:ok, obj:{}  }
+JSONObject obj=new JSONObject(str);
+ok=obj.getString("result");
+JSONObject obj=obj.getJSONObject("obj");
+
+
+str=[{},{},{}]
+JSONArray ary=new JSONArray(str);
+for(int i=0; i<ary.length(); i++) {
+	JSONObject obj=ary.getJSONObject(i);
+	obj.getString
+	obj.getInt
+	obj.get........
+	Branch b;
+	b.set.......
+}
+
+
+航班查询  sql
+
+
+
+项目进度：
+user
+   登录            10%
+   注册            10%
+   修改密码     10%
+flight
+	航班查询    10%
+branch
+	网点查询    10%    
+	城市查询    10%    
+order
+	添加订单 (添加机票)    10%   
+	*查询订单
+passenger
+	添加  10%   
+	查询  10%  
+	修改  10%
+	删除  10%
+	
+	
+航班查询sql语句：
+fromcity  tocity  cal
+'北京'   '上海'    '2013-11-11'
+
+select   
+fromc.city_name fromcityn,
+toc.city_name tocityn,
+froma.airport_name  froman,
+toa.airport_name toan,
+f.fl_departure_date  starttime,
+f.fl_arrival_date totime 
+from flight f join route r on f.route_id=r.route_id 
+join airport froma on r.from_airport_id=froma.airport_id
+join airport toa on r.to_airport_id=toa.airport_id
+join city fromc on froma.city_id=fromc.city_id 
+join city toc on toa.city_id=toc.city_id
+join plane p on p.plane_id=f.plane_id 
+
+where fromc.city_name like '%北京%'  
+and toc.city_name like '%上海%' 
+and f.fl_departure_date like '%2013-11-11%';
+
+	
+
+1. 怎样使用session对象 
+
+登录：
+	接收响应，分析消息头。
+	Set-Cookie: JSESSIONID=123123
+	
+    把jsid存入application
+    
+    发送修改密码请求时，在请求数据包中，
+    把jsid一同发送。
+    Cookie:jsid
+    
+
+
+
+
+
+
+

@@ -1,0 +1,28 @@
+#cool_address #address_warp {
+	border-bottom: #7f9db9 1px solid; border-left: #7f9db9 1px solid; background: #fff; border-top: #7f9db9 1px solid; border-right: #7f9db9 1px solid; 
+}
+#cool_address #address_message {
+	border-bottom: #aaa 1px dashed; color: #666; 
+}
+#cool_address #address_list a {
+	border-bottom: #fff 1px solid; color: #9e0903; border-top: #fff 1px solid; 
+}
+#cool_address #address_list a:hover {
+	border-bottom: #9e0903 1px solid; background: #fdecec; border-top: #9e0903 1px solid;
+}
+#cool_address .address_selected {
+	border-bottom: #f8c2c2 1px solid; background: #f8c2c2; color: #fff; border-top: #f8c2c2 1px solid;
+}
+
+#cool_address .address_pagebreak a {
+	color: #0055aa; 
+}
+#cool_address #address_arrowl {
+	color: #0055aa
+}
+#cool_address #address_arrowr {
+	color: #0055aa
+}
+#cool_address a.address_current {
+	color: black; 
+}

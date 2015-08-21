@@ -1,0 +1,148 @@
+/*box1及其子元素所用样式*/
+#box1 {
+	BACKGROUND: #297bcf;/*原值：b30117; */
+}
+.w936 {
+	BORDER-BOTTOM: #d1d2d4 1px solid; BORDER-LEFT: #d1d2d4 1px solid;BACKGROUND: #fff; BORDER-TOP: #d1d2d4 1px solid; BORDER-RIGHT: #d1d2d4 1px solid;
+}
+.indextab LI A {
+	OUTLINE-COLOR: invert; 
+}
+.indextab LI A:hover {
+	BACKGROUND: url(../images/sliding_left_til_bg.gif) no-repeat left bottom; COLOR: #fff;
+}
+.normaltab {
+	BACKGROUND: url(../images/sliding_left_til_bg.gif) no-repeat left top; COLOR: #1f3a87
+}
+.normaltab a {
+	COLOR: #1f3a87;
+}
+.hovertab {
+	BACKGROUND: url(../images/sliding_left_til_bg.gif) no-repeat left bottom; COLOR: #1f3a87; 
+}
+.hovertab a {
+	COLOR: #fff;
+}
+.ctt {
+	BACKGROUND: url(../images/sliding_right_bg.gif) #fff no-repeat right bottom; 
+}
+input.ipttext {
+	BORDER-BOTTOM: #989898 1px solid; BORDER-LEFT: #989898 1px solid; BACKGROUND: url(../images/input_bg.gif) repeat-x; COLOR: #999; BORDER-TOP: #989898 1px solid; BORDER-RIGHT: #989898 1px solid;
+}
+
+input.ipt {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #ffffff 1px solid; BACKGROUND: url(../images/nomal_input_bg.jpg) repeat-x 50% bottom; COLOR: #ffffff; BORDER-TOP: #ffffff 1px solid; BORDER-RIGHT: #ffffff 1px solid; border-width:0px;
+}
+.sty0417 {
+	COLOR: #4697cd; 
+}
+#flashbox .flashnumber LI {
+	BACKGROUND: url(../images/flashbutton.gif) no-repeat -15px 0px; COLOR: #86a2b8; 
+}
+#flashbox .flashnumber LI.on {
+	BACKGROUND: url(../images/flashbutton.gif) no-repeat; COLOR: #ffffff;
+}
+#adpic {
+	BACKGROUND: url(../images/rightThreePic.jpg) no-repeat; 
+}
+
+/*box2及其子元素所用样式*/
+#recommendedRoute {
+	BORDER-BOTTOM: #d1d2d4 1px solid; BORDER-LEFT: #d1d2d4 1px solid; BORDER-TOP: #d1d2d4 1px solid; BORDER-RIGHT: #d1d2d4 1px solid;
+}
+#recommendedRoutebox {
+	BACKGROUND: url(../images/recommendedRoute_Bg.jpg) no-repeat 50% top; 
+}
+.tilRed {
+	COLOR: #fff;
+}
+
+
+.Route {
+	BORDER-BOTTOM: #e1e1e1 1px solid; BORDER-LEFT: #e1e1e1 0px solid; BACKGROUND: url(../images/Route_bg.gif) no-repeat; COLOR: #666; BORDER-TOP: #e1e1e1 0px solid; BORDER-RIGHT: #e1e1e1 0px solid;
+}
+.Route A {
+    COLOR: #666;
+}
+.RoutePrice {
+	COLOR: #c00; 
+}
+.RoutePrice A {
+	COLOR: #c00; 
+}
+
+
+#news {
+	BORDER-BOTTOM: #d1d2d4 1px solid; BORDER-LEFT: #d1d2d4 1px solid; BORDER-TOP: #d1d2d4 1px solid; BORDER-RIGHT: #d1d2d4 1px solid;
+}
+.newstil {
+	BORDER-BOTTOM: #fff 0px solid; BORDER-LEFT: #fff 0px solid; BACKGROUND: url(../images/dot_til.gif) #eff4f6 no-repeat 10px 7px; COLOR: #2d6db7; BORDER-RIGHT: #fff 0px solid; 
+}
+.newsBox {
+	COLOR: #666;
+}
+.newsItem {
+	BACKGROUND: url(../images/news_bg.gif) repeat-x left bottom; 
+}
+.newsContent {
+	BACKGROUND: url(../images/dot_news.gif) no-repeat 1px 9px; 
+}
+.newsContent A {
+    COLOR: #666;    
+}
+#advediotil {
+	BACKGROUND: #f0f0f1; COLOR: #666; 
+}
+
+
+/*box2及其子元素所用样式*/
+#box3 {
+	BACKGROUND: url(../images/box3bg.jpg) no-repeat; 
+}
+
+/**************航班动态页面******************/
+/*表格边框颜色由cc4d4d改为b9cbd9*/
+table.flightStatus  {
+	color: #883A3A;		border-bottom: 1px #b9cbd9 solid;border-right: 1px #b9cbd9 solid;
+}
+table.flightStatus thead td {
+	color: #000000;	border-left: 1px #b9cbd9 solid;	border-top: 1px #b9cbd9 solid;	border-bottom: 1px #b9cbd9 solid;
+}
+tr.flightStatusHeader {
+	background: #d1e6f7;color: #000000;
+}
+tr.flightRow  {
+	background-color: #ffffff;color: #000000;	border-left: 1px #b9cbd9 solid;	border-bottom: 1px #b9cbd9 solid;
+}
+tr.flightRow_hover  {/*背景色原值：FFEEDD*/
+	background-color: #e7f4fe;color: #000000;	border-left: 1px #b9cbd9 solid;	border-bottom: 1px #b9cbd9 solid;
+}
+tr.flightRow td,
+tr.flightRow_hover td  {
+   	border-left: 1px #b9cbd9 solid;	
+}
+/**************资讯详细信息页面******************/
+#newsDetail { 
+    color:#000000;
+}
+table.newsDetail_header  {
+    background-color:#ffffff; 
+}
+table.newsDetail_table  {
+    background-color:#ffffff; 
+    border-left:#b9cbd9 1px solid; 
+    border-right:#b9cbd9 1px solid; 
+    border-bottom:#b9cbd9 1px solid;
+}
+td.newsDetail_title  {
+     background-color:#e6e6e6; 
+     color:#4d4d4d;
+}
+td.newsTime  {
+    color:#4d4d4d;
+}
+td.newsDetailContent  {
+    color:#505050;
+}
+.newcloselink:link{color: #000000; }
+.newcloselink:hover {color: #f70608; }

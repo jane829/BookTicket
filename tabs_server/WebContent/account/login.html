@@ -1,0 +1,200 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>首都航空[官方网站] – 北京首都航空有限公司</title>
+        <link rel="SHORTCUT ICON" href="/images/favicon.ico">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta name="keywords" content="北京首都航空有限公司 北京 首都 首都航空 机票">
+        <meta name="description" content="北京首都航空官方网站，北京首都航空有限公司简称首都航空，是一家总部位于北京的公共运输航空公司。首都航空秉承“安全、简单、亲和”的服务理念，为旅客提供特色化的菜单式服务和舒适、方便、快捷的出行服务体验提供机票预订及航班动态查询服务。首都航空电话订票热线 95071999。">
+        <link rel="stylesheet type=text/css" href="../css/common.css">
+        <link rel="stylesheet type=text/css" href="../css/common_color.css">
+        <link rel="stylesheet type=text/css" href="../css/account.css">
+        <link rel="stylesheet type=text/css" href="../css/account_color.css">
+    <script src="../scripts/jquery-1.4.3.js" type="text/javascript"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+    	$("#registButton").click(function(){
+			//获取参数  
+			var userId = $("#userId").val();
+			var pwd = $("#pwd").val();
+			var pwdConfirm = $("#pwdConfirm").val();
+			var email = $("#email").val();
+			var realName = $("#realName").val();
+			var phone = $("#mobilePhoneNumber").val();
+			//发送ajax请求
+			//  /server/user/regist.do
+			//  /server/accout/login.html
+			$.post("../user/regist.do", 
+					{userId:userId, pwd:pwd, pwdConfirm:pwdConfirm, email:email, realName:realName, phone:phone},
+					function(data){  //{"result" }
+						var res=$.parseJSON(data);
+						if(res.result=='ok'){
+							alert("注册成功!");
+							document.getElementById("regForm").reset();
+						}else{
+							alert("注册失败, "+res.msg);
+						}
+					});
+			
+    	});
+    });
+    
+    </script>
+    </head>
+    <body>        
+        <div id="page">
+            <!-- 头部-->
+            <div id="header">
+                <!-- 头部右上角子菜单开始-->
+                <div id="logo"></div>
+                <div id="topnav">                   
+                    <select class="select" name="select1" >
+                        <option selected value="">=== 友情链接 ===</option>
+                        <option value="">中国银联</option>
+                        <option value="">首都公务航空</option>
+                        <option value="">大新华物流</option>
+                    </select>                   
+                    <!--会员登录开始-->
+                    <form id="loginForm" method="post" name="loginForm" action="">
+                        <div id="toplogin">
+                            用户名：<input id="userName" class="textbox" type="text" name="userName">
+                            密码：<input id="password" class="textbox" type="password" name="password">
+                            验证码：<input id="j_captcha_response" class="textbox_vericode" type="text" name="j_captcha_response">
+                            <img  id="jcaptcha" class="verycode" title="点击更换验证码" src="../images/jcaptcha.jpg"> 
+                            <div id="loginbanner">
+                                <input class="btn_login" value="登 录" type="button" name="inpLogin" onclick="location.replace('../index_logined.html');"> 
+                                <input class="btn_login" value="注 册" type="button" name="registerUser" onclick="location.replace('register_choose.html');"> 
+                                <a href="password_find">忘记密码</a> 
+                                <a href="#">非注册用户登入</a>
+                            </div>
+                        </div>
+                  </form>
+                </div>
+                <div id="line"></div>
+                <div id="menu">                   
+                    <ul class="jl-menu">
+                        <li class="current"><a href="../index.html">首页</a></li>
+                        <li class="current"><a href="../search/multiway.html">在线购票</a></li>
+                        <li class="current"><a href="../map.html" target="_blank">营业网点</a></li>
+                        <li class="current"><a href="#">在线帮助</a></li>
+                        <li class="current"><a href="../about.html" target="_blank">关于我们</a></li>
+                        <li class="current"><a href="login.html">用户登录</a></li>
+                    </ul>
+                 </div>
+            </div>
+            <div id="subpage">
+	            <div id="userloginwarp">
+		            <div id="login">
+		              <form id="loginForm2" name="loginForm2" action="" method="post"> 
+		                  <table>
+                            <tr>
+                              <td class="width23percent logintext" >用户名：</td>
+                              <td class="width77percent">
+                                <input name="userName" type="text" id="userName2" value="merita" class="ipts1" >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="width23percent logintext">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                              <td>
+                                <input name="password" type="password" id="password2" class="ipts1" >
+                              </td>
+                            </tr>
+                            <tr>
+                              <td class="width23percent logintext">验证码：</td>
+                              <td>
+                                <input name="j_captcha_response" type="text" id="j_captcha_response2" class="ipts2" >
+                                <img id="Img1" src="../images/jcaptcha.jpg"  title="点击更换验证码">
+                              </td>
+                            </tr>
+                            <tr>
+                              <td colspan="2" class="width23percent">
+                                <input name="inpLogin" type="button" class="iptlg" value="" onclick="location.href='../index_logined.html';" >
+                                <a href="#">忘记密码?</a>
+                              </td>
+                            </tr>
+                            <tr>
+                                <td colspan="2" class="width23percent">
+            	                    <a href="#">非注册用户点击此处登入</a>
+                                </td>
+                            </tr>                            
+                          </table>
+                      </form>
+	                </div>
+		            <div id="register">
+		                <form id="regForm" method="post" action="">
+			                <h1>个人用户</h1>
+			                <div class="rigform">
+			                  <table>
+                                <tr></tr>
+                                <tr>
+                                  <td class="width20percent">用户名：</td>
+                                  <td>
+                                    <input name="userId" type="text" class="ipts3" id="userId" >
+                                    <input name="useridHad" id="useridHad" type="hidden" value="false">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">密&nbsp;&nbsp;&nbsp;&nbsp;码：</td>
+                                  <td>
+                                    <input name="pwd" type="password" class="ipts3" id="pwd" value="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">重复密码：</td>
+                                  <td>
+                                    <input name="passwordConfirm" type="password" class="ipts3" id="pwdConfirm" value="">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">电子邮件：</td>
+                                  <td>
+                                    <input name="email" type="text" class="ipts3" id="email">
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">真实姓名：</td>
+                                  <td>
+                                    <input name="realName" type="text" class="ipts3" id="realName" >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">移动电话：</td>
+                                  <td>
+                                    <input name="mobilePhoneNumber" type="text" class="ipts3" id="mobilePhoneNumber" >
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="width20percent">&nbsp;</td>
+                                  <td>
+                                    <label>
+                  	                    <input type="checkbox" name="checkboxB2C" id="checkboxB2C">
+                                        <span class="RED">注册前阅读并同意</span>《散客用户注册协议》
+                                    </label>
+                                  </td>
+                                </tr>
+                                <tr>
+                                  <td class="height50">&nbsp;</td>
+                                  <td >
+                                    <input id="registButton" name="inpLogin2" type="button" class="iptre" value=""  >
+                                  </td>
+                                </tr>
+                              </table>
+			                </div>
+		                </form>
+                    </div>
+	            </div>
+            </div>
+            <!-- 底部版权信息开始-->
+            <div id="footer">
+                <div id="copyright">                  
+                    <br>版权所有2007-2010北京首都航空有限公司海南易建科技股份有限公司
+                    <a href="#" target="_blank">mail to webmaster</a>&nbsp;&nbsp;
+                    <a href="#">隐私条款</a> 
+                    <a href="#">免责声明</a><br>
+                    <a href="#" target=_blank>琼icp备08100707号</a> 
+                </div>
+            </div>
+        </div>
+        <div id="spring" class="backgroundimg"></div>
+    </body>
+</html>

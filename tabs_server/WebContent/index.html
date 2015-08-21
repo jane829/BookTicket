@@ -1,0 +1,337 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>首都航空[官方网站] – 北京首都航空有限公司</title>
+        <link rel="SHORTCUT ICON" href="/images/favicon.ico">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta name="keywords" content="北京首都航空有限公司 北京 首都 首都航空 机票">
+        <meta name="description" content="北京首都航空官方网站，北京首都航空有限公司简称首都航空，是一家总部位于北京的公共运输航空公司。首都航空秉承“安全、简单、亲和”的服务理念，为旅客提供特色化的菜单式服务和舒适、方便、快捷的出行服务体验提供机票预订及航班动态查询服务。首都航空电话订票热线 95071999。">
+        <link rel="stylesheet type=text/css" href="css/common.css">
+        <link rel="stylesheet type=text/css" href="css/common_color.css">
+        <link rel="stylesheet type=text/css" href="css/index.css">
+        <link rel="stylesheet type=text/css" href="css/index_color.css">
+        <link rel="stylesheet type=text/css" href="css/coolcity.css">
+        <link rel="stylesheet type=text/css" href="css/coolcity_color.css">
+        <script language="javascript">
+            function ShowDiv(index) {
+                var tabID = "tbc_0" + index;
+                var divs = document.getElementById("divTabDivs").childNodes;
+                for(var i=0;i<divs.length;i++) {
+                    var divChild = divs[i];
+                    if (divChild.nodeName == "DIV") {
+                        if (divChild.id == tabID)
+                            divChild.style.display = "block";
+                        else
+                            divChild.style.display = "none";
+                    }
+                }
+                //修改页签的样式
+                var tabs = document.getElementById("tb_").getElementsByTagName("li");
+                for (var i = 0; i < tabs.length; i++) {
+                    tabs[i].className = "normaltab";
+                }
+                document.getElementById("tb_" + index.toString()).className = "hovertab";
+            }
+
+            //显示及隐藏城市选择
+            function showCities(isShow,e) {
+                var cityDiv = document.getElementById("cool_address");
+
+                //设置位置及是否显示
+                if (isShow) {
+                    cityDiv.style.display = "block";
+                    cityDiv.style.left = e.clientX;
+                    cityDiv.style.top = e.clientY;
+                }
+                else
+                    cityDiv.style.display = "none";
+            }
+        </script>
+    </head>
+    <body>        
+        <div id="page">
+            <!-- 头部-->
+            <div id="header">
+                <!-- 头部右上角子菜单开始-->
+                <div id="logo"></div>
+                <div id="topnav">                   
+                    <select class="select" name="select1" onchange="javascript:window.open(this.options[this.selectedIndex].value)">
+                        <option selected value="">=== 友情链接 ===</option>
+                        <option value="">中国银联</option>
+                        <option value="">首都公务航空</option>
+                        <option value="">大新华物流</option>
+                    </select>                   
+                    <!--会员登录开始-->
+                    <form id="loginForm" method="post" name="loginForm" action="">
+                        <div id="toplogin">
+                            用户名：<input id="userName" class="textbox" type="text" name="userName">
+                            密码：<input id="password" class="textbox" type="password" name="password">
+                            验证码：<input id="j_captcha_response" class="textbox_vericode" type="text" name="j_captcha_response">
+                            <img  id="jcaptcha" class="verycode" title="点击更换验证码" src="images/jcaptcha.jpg"> 
+                            <div id="loginbanner">
+                                <input class="btn_login" value="登 录" type="button" name="inpLogin"> 
+                                <input class="btn_login" value="注 册" type=button name="registerUser"> 
+                            </div>
+                        </div>
+                  </form>
+                </div>
+                <div id="line"></div>
+                <div id="menu">                   
+                    <ul class="jl-menu">
+                        <li class="current"><a href="index.html">首页</a></li>
+                        <li class="current"><a href="search/multiway.html">在线购票</a></li>
+                        <li class="current"><a href="map.html" target="_blank">营业网点</a></li>
+                        <li class="current"><a href="#">在线帮助</a></li>
+                        <li class="current"><a href="about.html" target="_blank">关于我们</a></li>
+                        <li class="current"><a href="account/login.html">用户登录</a></li>
+                    </ul>
+                 </div>
+            </div>
+            <!-- box1：机票预订及FLASH广告横栏-->
+            <div id="box1">
+                <!--查询航班-->
+                <div id="airticketsbooking">                    
+                    <div class="w936">
+                        <div id="tb_" class="indextab">
+                            <ul>
+                              <li id="tb_1" class="hovertab" onclick="ShowDiv(1);"><a href="#">查询航班</a></li>
+                              <li id="tb_2" class="normaltab"><a href="search/flightstatus.html">航班动态查询</a></li>
+                              <li id="tb_3" class="normaltab" onclick="ShowDiv(3);"><a href="#">客票验真</a></li>
+                            </ul>
+                        </div>
+                        <div class="ctt" id="divTabDivs">                         
+                            <div id="tbc_01" class="displaytab">
+                                <form id="searchflight" method="post" action="">
+                                    <table>
+                                      <tbody>
+                                          <tr>
+                                            <td class="bookingtype">
+                                                <input id="tripType1" value="ONEWAY" CHECKED type="radio" name="tripType"> 单程 
+                                                <input id="tripType2" value="ROUNDTRIP" type="radio" name="tripType"> 往返 
+                                                <input value="ROUNDTRIP" type="radio" name="lc"> 联程 
+                                            </td>
+                                          </tr>
+                                          <tr>
+                                            <td>
+                                              <table>
+                                                <tr>
+                                                  <td class="bookingdetail">出&nbsp;&nbsp;发&nbsp;&nbsp;地</TD>
+                                                  <td colSpan=3>
+                                                    <input id="orgCity_m" class="ipttext" type="text" onfocus="showCities(true,event);" onblur="showCities(false,event);">
+                                                    <input id="orgCity" type="hidden" name="orgCity"> 
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="bookingdetail">目&nbsp;&nbsp;的&nbsp;&nbsp;地</td>
+                                                  <td colSpan=3>
+                                                    <input id="depcity_m" class="ipttext" onfocus="showCities(true,event);" onblur="showCities(false,event);">
+                                                    <input id="dstCity" type="hidden" name="dstCity">
+                                                  </td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="bookingdetail">出发时间</td>
+                                                  <td>
+                                                    <input class="ipttime" id="flightDate" type="text" name="flightDate">
+                                                    <img id="dateLinka" name="dateLinka" src="images/data.gif">
+                                                  </td>
+                                                  <td></td>
+                                                  <td></td>
+                                                </tr>
+                                                <tr>
+                                                  <td>返程时间</td>
+                                                  <td>
+                                                    <input id="returnDate" class="ipttime" type="text" name="returnDate">
+                                                    <img id="dateLinkb" name="dateLinkb" src="images/data.gif">
+                                                  </td>
+                                                  <td></td>
+                                                  <td></td>
+                                                </tr>
+                                                <tr>
+                                                  <td class="bookingdetail" colSpan="4">
+                                                    <input id="inpNext" class="search" type="button" name="inpNext" onclick="location.href='search/searchflight.html';"> 
+                                                  </td>
+                                               </tr>
+                                              </table>
+                                           </td>
+                                          </tr>
+                                      </tbody>
+                                    </table>
+                                    <!--城市选择-->
+                                    <div id="cool_address">
+                                        <div id="address_warp">
+                                            <div id="address_message">
+                                                输入中文/拼音/机场代码或↑↓选择
+                                            </div>
+                                            <div id="address_list">
+                                                <a class="address_selected" href="#"><span>Guangzhou</span>广州</a>
+                                                <a href="#"><span>Chengdu</span>成都</a>
+                                                <a href="#"><span>Chongqing</span>重庆</a>
+                                                <a href="#"><span>Haikou</span>海口</a>
+                                                <a href="#"><span>Nanjing</span>南京</a>
+                                                <a href="#"><span>Beijing</span>北京</a>
+                                                <a href="#"><span>Shanghai</span>上海</a>
+                                                <a href="#"><span>Sanya</span>三亚</a>
+                                            </div>
+                                            <div class="address_pagebreak" id="address_p">
+                                                <a id="address_arrowl" href="#" name="p">&lt;-</a>
+                                                <a id="address_p1" href="#" name="1" class="address_current">1</a>
+                                                <a id="a1" href="#" name="1">2</a>
+                                                <a id="a2" href="#" name="1">3</a>
+                                                <a id="a3" href="#" name="1">4</a>
+                                                <a id="address_arrowr" href="#" name="n">-&gt;</a>
+                                            </div>
+                                        </div>                               
+                                    </div>
+                                </form>
+                             </div>                            
+                            <div id="tbc_03" class="undisplaytab kpyz">
+                                <h1>客票验真</H1><p>&nbsp;</p>
+                                <P>首都航空所有机票信息您可登录中国民航信息网络—
+                                    <span class="sty0417">信天游网站</span>
+                                    在页面右侧验真栏输入旅客姓名及客票号码进行验真。机票未使用一年内可查询，已使用机票三个月内可查验。确认要验证请
+                                    <span class="normaltab">
+                                        <a class="st2" href="http://www.travelsky.com/" target="_blank">点击这里</a>
+                                    </span>我们将为您跳转至信天游网站
+                                </p>
+                                <p><img src="images/kepiaoyanzhen.jpg" width="117"  height="66"></p>
+                            </div>                          
+                        </div>
+                    </div>                    
+                </div>                
+                <!--Flash广告-->                             
+                <div id="flashbox">
+                    <div id="idContainer2" class="container">      
+                        <ul id="idNum" class="flashnumber">
+                            <li class="on">1</li>
+                            <li>2</li>
+                            <li>3</li>
+                            <li>4</li>
+                            <li>5</li>
+                        </ul>    
+                    </div>                      
+                </div>               
+                <!--广告图片开始-->
+                <div id="adpic">                
+                    <ul>
+                        <li class="pic1"><a href="#" target="_blank">手机客户端</a></li>
+                        <li class="pic2"><a title="酒店预订" href="#" target="_blank">酒店预订</a></li>
+                        <li class="pic3"><a title="订票热线" href="#">订票热线</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- box2：推荐航线-最新资讯横栏-->
+            <div id="box2">
+                <!--推荐航线-->
+                <div id="recommendedRoute">
+                    <div id="recommendedRoutebox">
+                        <div class="tilRed">
+                            <div>
+                                <a href="#" target="_blank"><img title="更多航线..." src="images/more.gif"></a>
+                            </div>推荐航线 
+                        </div>
+                        <div id="__AD_recommendedRoute">
+                            <div id="lineContent">                                
+                                <div class="Route">                                    
+                                    <div class="RouteDate"><a href="#">08/11-08/31</a></div>
+                                    <div class="RouteLocale"><a href="#">乌鲁木齐-喀什</a></div>
+                                    <div class="RoutePrice"><a href="#">￥600</a></div>
+                                </div>
+                                <div class="Route">                                    
+                                    <div class="RouteDate"><a href="#">08/11-08/31</a></div>
+                                    <div class="RouteLocale"><a href="#">乌鲁木齐-喀什</a></div>
+                                    <div class="RoutePrice"><a href="#">￥600</a></div>
+                                </div>
+                                <div class="Route">                                    
+                                    <div class="RouteDate"><a href="#">08/11-08/31</a></div>
+                                    <div class="RouteLocale"><a href="#">乌鲁木齐-喀什</a></div>
+                                    <div class="RoutePrice"><a href="#">￥600</a></div>
+                                </div>
+                                <div class="Route">                                    
+                                    <div class="RouteDate"><a href="#">08/11-08/31</a></div>
+                                    <div class="RouteLocale"><a href="#">乌鲁木齐-喀什</a></div>
+                                    <div class="RoutePrice"><a href="#">￥600</a></div>
+                                </div>                                
+                                <img src="images/indicator.gif"> 数据加载中…… 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--最新资讯-->
+                <DIV id="news">
+                    <DIV class="newstil">
+                        <DIV>
+                            <A href="#" target="_blank"><IMG title="更多资讯..." src="images/more.gif"></A>
+                        </DIV>
+                        最新资讯
+                    </DIV>
+                    <DIV class=newsBox>
+                        <DIV id="smsg">
+                            <DIV class="newsItem">
+                                <DIV class="newsContent">
+                                    <A href="news.html" target="_blank">首都航空诚邀您参加空中乘...</A>
+                                </DIV>
+                                <DIV class="newsDate">08-18</DIV>
+                            </DIV>
+                            <DIV class="newsItem">
+                                <DIV class="newsContent">
+                                    <A href="news.html" target="_blank">首都航空诚邀您参加空中乘...</A>
+                                </DIV>
+                                <DIV class="newsDate">08-18</DIV>
+                            </DIV>
+                            <DIV class="newsItem">
+                                <DIV class="newsContent">
+                                    <A href="news.html" target="_blank">首都航空诚邀您参加空中乘...</A>
+                                </DIV>
+                                <DIV class="newsDate">08-18</DIV>
+                            </DIV>
+                            <IMG src="images/indicator.gif"> 数据加载中…… 
+                        </DIV>
+                    </DIV>
+                </DIV>
+                <!--视频广告-->
+                <DIV id="advedio">
+                    <EMBED height="190" type="application/x-shockwave-flash" align="middle" width="190"  src="http://player.youku.com/player.php/sid/XMTgyNDk5NTEy/v.swf"  allowScriptAccess="sameDomain" quality="high"></EMBED> 
+                    <DIV id="advediotil">首都航空与冯小刚合作公司形象宣传片</DIV>
+                </DIV>            
+            </DIV>
+            <!-- box3：网上彩票及合作伙伴横栏-->
+            <div id="box3">
+                <ul>
+                  <li class="ad1">
+                    <img src="images/products2.jpg" usemap="#paylogo">
+                    <map name="paylogo"><area href="#" shape="rect" target="_blank" coords="42,40,138,73"></map>
+                  </li>
+                  <li class="ad2">
+                    <img src="images/weibo.jpg" usemap="#bloglogo">
+                    <map name="bloglogo">
+                        <area href="#" shape="rect" target="_blank" coords=11,40,62,68>
+                        <area href="#" shape="rect" target="_blank" coords=69,41,118,67>
+                        <area href="#" shape="rect" target="_blank" coords=126,40,174,67>
+                    </map>
+                  </li>
+                  <li class="p1"><a title="海航旅业" href="#" target="_blank">海航旅业</a></li>
+                  <li class="p2"><a title="天津航空" href="#" target="_blank">天津航空</a></li>
+                  <li class="p3"><a title="祥鹏航空" href="#" target="_blank">祥鹏航空</a></li>
+                  <li class="p4"><a title="西部航空" href="#" target="_blank">西部航空</a></li>
+                  <li class="p5"><a title="海南航空" href="#" target="_blank">海南航空</a></li>
+                </ul>
+            </div>
+            <!-- 底部版权信息开始-->
+            <div id="footer">
+                <div id="copyright">
+                    <div class="copyrightimg">
+                       <img alt="" src="images/westcompany.jpg">
+                    </div>
+                    <div class="copyrighttext">
+                        <br>版权所有2007-2010北京首都航空有限公司海南易建科技股份有限公司
+                        <a href="#" target="_blank">mail to webmaster</a>&nbsp;&nbsp;
+                        <a href="#">隐私条款</a> 
+                        <a href="#">免责声明</a><br>
+                        <a href="#" target=_blank>琼icp备08100707号</a> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="spring" class="backgroundimg"></div>
+    </body>
+</html>

@@ -1,0 +1,449 @@
+body {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+div {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+dl {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+dt {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+dd {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+ul {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+ol {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+li {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h1 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h2 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h3 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h4 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h5 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h6 {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+pre {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+code {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+form {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+table{
+    width:100%
+}
+fieldset {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+legend {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+input {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+button {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+textarea {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+p {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+blockquote {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+th {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+td {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+select {
+	padding-bottom: 0px; margin: 0px; padding-left: 0px; padding-right: 0px; font-family: "microsoft yahei", arial, "宋体"; font-size: 12px; padding-top: 0px
+}
+h1 {
+	font-size: 100%; font-weight: normal
+}
+h2 {
+	font-size: 100%; font-weight: normal
+}
+h3 {
+	font-size: 100%; font-weight: normal
+}
+h4 {
+	font-size: 100%; font-weight: normal
+}
+h5 {
+	font-size: 100%; font-weight: normal
+}
+h6 {
+	font-size: 100%; font-weight: normal
+}
+ul {
+	padding-bottom: 0px; list-style-type: none; margin: 0px; padding-left: 0px; padding-right: 0px; list-style-image: none; padding-top: 0px
+}
+li {
+	padding-bottom: 0px; list-style-type: none; margin: 0px; padding-left: 0px; padding-right: 0px; list-style-image: none; padding-top: 0px
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    text-decoration:underline;
+}
+div.backgroundimg
+{
+    z-index: -999; position: absolute; width: 100%; height: 870px; overflow: hidden; top: 0px; left: 0px;
+}
+.ipt {
+	padding-bottom: 0px; padding-left: 8px; padding-right: 8px; height: 24px; font-weight: bold; padding-top: 1px;cursor:pointer;
+}
+.ipt:hover {
+	text-decoration:underline; 
+}
+.clear {
+    clear:both
+}
+.font_black12 {
+	font-family: "宋体"; font-size: 12px; font-weight: 400;
+}
+.font_black14 {
+	font-family: "宋体"; font-size: 14px; font-weight: 700;
+}
+.font_orange12 {
+	font-family: "宋体";font-size: 12px;font-weight: 400;
+}
+.font_grey12bold {
+	font-family: "瀹嬩綋";font-size: 12px;font-weight: 700;
+}
+.font_red14boldcandara {
+	font-family: "Candara","Arial","宋体";font-size: 14px;font-weight: 700;
+}
+input.textbox {
+	padding-bottom: 0px; line-height: 16px; margin: 0px; padding-left: 0px; padding-right: 0px; height: 16px; vertical-align: middle; padding-top: 0px;
+}
+.bold700 {
+	font-weight: 700
+}
+.bold400 {
+	font-weight: 400
+}
+div.height100  {height:100px;}
+input.width25 {
+    width:25px;
+}
+input.width40 {
+    width:40px;
+}
+input.width60 {
+    width:60px;
+}
+input.width80 {
+    width:80px;
+}
+input.width98 {
+    width:98px;
+}
+input.width108 {
+    width:108px;
+}
+input.width128 {
+    width:128px;
+}
+input.width140 {
+    width:140px;
+}
+input.width160 {
+    width:160px;
+}
+input.width180 {
+    width:180px;
+}
+input.width200 {
+    width:200px;
+}
+tr.height25 {
+    height:25px;
+}
+td.height27 {
+    height:27px;
+}
+td.height35 {
+    height:35px !important;
+}
+td.height30 {
+    height:30px;
+}
+td.height40 {
+    height:40px;
+}
+td.width50percent {
+    width:50%;
+}
+table.button_list
+{
+    width:97%; text-align:center; height:50px;
+}
+/***************************header部分的样式*************************/
+#page {
+	margin: 0px auto; width: 1011px; 
+}
+#header {
+	padding-bottom: 4px; margin: 0px auto; width: 966px; height: 137px;
+}
+#subpage {
+	margin: 0px auto; width: 966px;
+}
+#leftside {
+    float:left; width:218px;
+}
+#logo {
+	width: 540px; float: left; height: 96px;
+}
+#topnav {
+	text-align: right; padding-bottom: 0px; padding-left: 0px; width: 426px; padding-right: 0px; float: right; padding-top: 5px;
+}
+#toplogin {
+	text-align: left; padding-bottom: 0px; padding-left: 0px; width: 426px; padding-right: 0px; padding-top: 15px;
+}
+#toplogin a {
+    padding-bottom: 0px; padding-left: 4px; padding-right: 4px; font-weight: bold; padding-top: 0px;
+}
+#toplogin a.loginned {
+    padding-bottom: 0px; padding-left: 4px; padding-right: 4px; font-weight: normal; padding-top: 0px; text-decoration:none;
+}
+#toplogin a.loginned:hover {
+    text-decoration:underline;
+}
+#toplogin .textbox {
+	border-bottom: medium none; border-left: medium none; padding-bottom: 0px; padding-left: 2px; width: 70px; padding-right: 0px; height: 21px; border-top: medium none; border-right: medium none; padding-top: 2px
+}
+
+#toplogin .textbox_vericode {
+	border-bottom: medium none; border-left: medium none; padding-bottom: 0px; padding-left: 2px; width: 58px; padding-right: 0px; height: 21px; border-top: medium none; border-right: medium none; padding-top: 2px
+}
+
+img.verycode{
+    border: 0; vertical-align:middle; cursor: pointer;
+}
+
+#toplogin .btn_login {
+	border-bottom: medium none; border-left: medium none; width: 43px; height: 21px; border-top: medium none; font-weight: bold; border-right: medium none;
+}
+
+#loginbanner{
+    padding-bottom: 0px; padding-left: 43px; padding-right: 0px; padding-top: 5px;
+}
+#line {
+	margin: 0px auto; height: 11px; clear: both
+}
+#mainnav {
+	z-index: 2; position: absolute; margin: 0px; width: 966px
+}
+#menu {
+	height: 30px; clear: both; z-index:50; position:absolute;
+}
+
+#menu ul li {
+	text-align: center; line-height: 30px; width: 161px; display: block; float: left; height: 30px;  font-weight: bold
+}
+#menu ul li a {
+	text-align: center; line-height: 30px; width: 161px; display: block; height: 30px; font-weight: bold
+}
+#menu ul li a:hover {
+	text-align: center; line-height: 30px; width: 161px; display: block; height: 30px; font-weight: bold; text-decoration: none
+}
+#menu ul li ul li {
+	filter: alpha(opacity=92); width: 158px; moz-opacity: 0.90
+}
+#menu ul li ul li a {
+    border-bottom-width:2px; border-bottom-style:solid; text-align: left; filter: alpha(opacity=92); text-indent: 8px; width: 158px; background: #e91b25; font-weight: normal; moz-opacity: 0.90
+}
+#menu ul li ul li a:hover {
+	text-align: left; filter: alpha(opacity=92); width: 158px; font-weight: normal; moz-opacity: 0.90
+}
+.jl-menu {
+	margin-bottom: 1em; float: left
+}
+.jl-menu>li>ul  {display:none;}
+.current {
+	text-align: center; line-height: 27px; width: 75px; display: block; height: 27px; font-weight: 700; margin-right: 0px
+}
+.current a:hover {
+	text-decoration: none;
+}
+#userlogin {
+	margin: 0px; width: 230px; float: left
+}
+
+/*****************footer部分的样式*********************/
+#footer {
+	margin: 0px auto; width: 966px; height: 70px;
+}
+#copyright {
+	text-align: center; line-height: 18px; margin: 0px auto; width: 966px; height: 70px; padding-top: 10px;
+}
+div.copyrightimg {
+    padding-right: 5px; float: right;
+}
+div.copyrighttext {
+    float: right; height: 50px; margin-left: 160px;
+}
+
+
+
+
+/*****************机票预定box部分的样式*********************/
+#booking {
+    height:217px; padding:50px 0 0 10px;
+}
+input.booking_ipttext_131 {
+    height:20px; line-height:22px; padding-left:5px;width:131px; 
+}
+input.booking_ipttext_85 {
+    height:20px; line-height:22px; padding-left:5px; width:85px;
+}
+input.search {
+	cursor: pointer;border-bottom: medium none; border-left: medium none; width: 109px; height: 32px; border-top: medium none; border-right: medium none;
+}
+
+
+
+
+/*****************用户登陆box部分的样式*********************/
+#subuserlogin {
+    width:218px; border:none; font-weight:bold;height:270px;
+}
+#subuserlogin h1 {
+    font-weight:bold; padding:33px 0 0 45px;
+}
+table.loginbox {
+    width:181px;text-align:center;margin-left:20px;
+}
+td.height25 {
+    height:25px;
+    text-align:center;
+}
+td.height30left {
+    height:30px;
+    text-align:left;
+}
+td.userinfo_header {
+    line-height: 29px;height:20px;
+}
+td.userinfo
+{
+    width:50%; text-align:left;height:30px;padding-left:10px;margin-top:5px; vertical-align:bottom;
+}
+.IptGray1,.IptGray2,.IptGray3 {
+    width:110px; height:13px; padding:2px 0 0 2px; 
+}
+.IptGray3 {
+    width:30px;
+}
+#subuserlogin .btn_login {
+    width:45px; height:22px; border:none; font-weight:bold;padding:0px;margin-left:3px;
+}
+#subuserlogin a.findpwd {
+    font-weight:bold;
+}
+
+/*****************右下角main部分的样式*********************/
+#main {
+    float:right; width:743px; overflow:visible; padding:0 0 10px 0;
+}
+#maincontent {
+    padding:20px 30px; line-height:20px; min-height:500px;height:auto !important; height:475px;
+}
+#maincontent h1{ 
+    padding:10px 0; font-weight:bold; font-size:14px;
+}
+
+/*****************二级页面介绍性文本的样式*********************/
+p.info_title {
+    margin-top:12px; line-height:30px;font-family:'仿宋_GB2312','Arial'; font-size:18px;text-align:center; font-weight:700;
+}
+p.info_detail {
+    text-indent:24px; line-height:30px;font-family:'仿宋_GB2312','Arial';font-size:12pt;
+}
+p.info_detail_short {
+    margin-top:12px; line-height:30px;font-family:'仿宋_GB2312','Arial'; font-size:12pt;
+}
+.input-notification  {
+	padding: 2px 0 2px 22px;
+	margin: 0 0 0 5px;
+}
+/*****************使用thickbox弹出框的样式*********************/
+.popup-box  {
+    margin: 0px;    
+}
+.popup-box-header {    
+    margin-top: 1px;
+    height: 25px;
+    border:1px solid transparent;
+    padding-top:5px;
+    padding-left:15px;
+    font-size:13px;
+    font-weight:bold;
+}
+.popup-box-header a  {    
+    display:block;
+    float:right;
+    padding-right:10px;
+    padding-top:2px;
+}
+.popup-box-header a img  {    
+    width:10px;
+}
+.popup-box-content  {
+    padding: 10px 15px;
+    font-size: 13px;
+    height:200px;
+    overflow-y:auto;
+}
+.popup-box-content .text-info
+{
+    float:left;
+    height:25px;
+    padding-top:8px;
+    width:80px;
+    text-align:right;
+}
+.popup-box-content .input-info
+ {
+    float:left;
+    height:25px;
+    padding:4px;
+    text-align:left;
+}
+.popup-box-content .input-info textarea
+ {
+    height:125px;
+    width:280px;
+}
+.popup-box-footer
+{
+    text-align:right;
+    padding:5px 15px 4px 15px;
+}

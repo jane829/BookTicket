@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">3GABS航空订票</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_regest">注册</string>
+
+    <string-array name="id_type">
+        <item>身份证</item>
+        <item>驾照</item>
+        <item>护照</item>
+        <item>军官证</item>
+    </string-array>
+</resources>

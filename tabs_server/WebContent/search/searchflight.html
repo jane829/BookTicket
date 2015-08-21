@@ -1,0 +1,312 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3c.org/TR/1999/REC-html401-19991224/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>首都航空[官方网站] – 北京首都航空有限公司</title>
+        <link rel="SHORTCUT ICON" href="/images/favicon.ico">
+        <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+        <meta name="keywords" content="北京首都航空有限公司 北京 首都 首都航空 机票">
+        <meta name="description" content="北京首都航空官方网站，北京首都航空有限公司简称首都航空，是一家总部位于北京的公共运输航空公司。首都航空秉承“安全、简单、亲和”的服务理念，为旅客提供特色化的菜单式服务和舒适、方便、快捷的出行服务体验提供机票预订及航班动态查询服务。首都航空电话订票热线 95071999。">
+        <link rel="stylesheet type=text/css" href="../css/common.css">
+        <link rel="stylesheet type=text/css" href="../css/common_color.css">
+        <link rel="stylesheet type=text/css" href="../css/order.css">
+        <link rel="stylesheet type=text/css" href="../css/order_color.css">
+    </head>
+    <body>        
+        <div id="page">
+            <!-- 头部-->
+            <div id="header">
+                <!-- 头部右上角子菜单开始-->
+                <div id="logo"></div>
+                <div id="topnav">                   
+                    <select class="select" name="select1" onchange="javascript:window.open(this.options[this.selectedIndex].value)">
+                        <option selected value="">=== 友情链接 ===</option>
+                        <option value="">中国银联</option>
+                        <option value="">首都公务航空</option>
+                        <option value="">大新华物流</option>
+                    </select>                   
+                    <div id="toplogin">                    		
+	                    欢迎您，王五！
+	                    <br>
+	                    <a href="userinfo.html" class="loginned"> 会员信息</a>
+	                    <a href="myorders.html" class="loginned">| 我的订单</a>
+	                    <a href="userinfo_modify.html" class="loginned">| 修改资料</a>
+	                    <a href="password_modify" class="loginned">| 修改密码</a>                     		
+	                    <input name="registerUser" type="button" class="ipt" value="退出登录">  
+	                </div>
+	            </div>
+                <div id="line"></div>
+                <div id="menu">                   
+                    <ul class="jl-menu">
+                        <li class="current"><a href="../index.html">首页</a></li>
+                        <li class="current"><a href="../search/multiway.html">在线购票</a></li>
+                        <li class="current"><a href="../map.html" target="_blank">营业网点</a></li>
+                        <li class="current"><a href="#">在线帮助</a></li>
+                        <li class="current"><a href="../about.html" target="_blank">关于我们</a></li>
+                        <li class="current"><a href="../account/login.html">用户登录</a></li>
+                    </ul>
+                 </div>
+            </div>
+            <!-- 页面主体-->
+            <div id="subpage">
+  	            <!-- 左侧机票预订与会员登录-->
+	            <div id="leftside">
+   	                <!-- 机票预订-->
+ 	                <div id="booking">
+  	                    <form id="searchflight" action="" method="post">
+  	                      <table>
+                            <tr>
+        	                    <td class="height27">
+        	                        <input name="tripType" id="tripType1" type="radio" value="ONEWAY" checked="checked" >
+                                    单程
+                                    <input name="tripType" id="tripType2" type="radio" value="ROUNDTRIP" >
+                                    往返
+                                    <input type="radio" value="ROUNDTRIP" name="lc">
+                                    联程
+                                 </td>
+                            </tr>
+                            <tr>
+                              <td>
+                                <table>
+                                  <tr>
+                                    <td class="height27">出&nbsp;&nbsp;发&nbsp;&nbsp;地</td>
+                                    <td>
+                                        <input id="orgCity_m" type="text" class="booking_ipttext_131" >
+                                        <input id="orgCity" name="orgCity" type="hidden" >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="height27">目&nbsp;&nbsp;的&nbsp;&nbsp;地</td>
+                                    <td>
+                                        <input value="" id="depcity_m" type="text" class="booking_ipttext_131" >
+                                        <input id="dstCity" name="dstCity" type="hidden" >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="height27">出发时间</td>
+                                    <td>
+                                        <input name="flightDate" type="text" class="booking_ipttext_85" id="flightDate" >
+          		                        <img src="../images/data.gif" name="dateLinka" id="dateLinka" >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="height27">返程时间</td>
+                                    <td class="height35">
+                                        <input name="returnDate"  type="text" class="booking_ipttext_85" id="returnDate" >
+                                        <img src="../images/data.gif" name="dateLinkb"  id="dateLinkb" >
+                                    </td>
+                                  </tr>
+                                  <tr>
+                                    <td class="height30" colspan="2">                                     
+                                      <input name="inpNext" type="button" class="search" id="inpNext" >
+                                    </td>
+                                  </tr>
+                               </table>
+                              </td>
+                            </tr>
+                          </table>
+                        </form>
+  	                </div>
+	                <!--会员登录-->
+	                <div id="subuserlogin">
+                        <h1>用户信息</h1> 
+                        <table class="loginbox">
+                            <tr>
+                                <td colspan="2" class="userinfo_header"></td>
+                            </tr>
+		                    <tr>
+                                <td class="userinfo"> 
+                                    <a href="userinfo.html">- 会员信息</a>　
+	                            </td>
+	                            <td class="userinfo"> 
+	  	                            <a href="myorders.html">- 我的订单</a>
+	                            </td>
+	                        </tr>
+                            <tr>
+                                <td class="userinfo">
+                                    <a href="userinfo_modify.html">- 修改资料</a>　
+                                </td>
+                                <td class="userinfo"> 
+                                    <a href="password_modify.html">- 修改密码</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="userinfo" colspan="2">
+                                    <a href="../account/passengers.html">- 常用乘机人</a>　
+                                </td>
+                            </tr>                       		   
+		                </table>                    
+		           </div>
+              </div> 
+   	            <!-- 右侧-->
+               <div id="main">
+                    <div id="maincontent">		
+                        <table>
+	                        <tr>
+		                        <td align="left" class="font_black12">
+		                            <img src="../images/icon_hbcx.gif">
+		                            <a href="#" class="black">航线查询</a> -&gt;
+		                            <a href="#" class="red">选择航班</a> -&gt;
+		                            <a href="#" class="black">填写资料</a>-&gt;
+		                            <a href="#" class="black">支付</a>-&gt;
+		                            <a href="#" class="black">出票</a>
+		                        </td>
+		                    </tr>
+	                        <tr>
+		                        <td class="line"></td>
+	                        </tr>
+                        </table>
+                        <br />                        
+                        <!--查询结果的表头-->
+                        <table class="searchFlight">
+					        <tr>
+						        <td class="bold700">直飞航班&gt;&gt;</td>
+						        <td class="td_bottom_padd1">
+							        <span class="red">自</span>
+							        <span class="font_black14">广州白云机场</span>
+							        <span class="red">至</span>
+							        <span class="font_black14">北京首都国际机场</span>
+						        </td>
+						        <td>
+							        <span id="fltDate">2011-08-24</span>
+						        </td>
+					        </tr>
+					        <tr>
+						        <td colspan="3" class="search_dateorder">
+							        <a href="#" >8月24日</a> |
+							        <a href="#" >8月25日</a> |
+							        <a href="#" >8月26日</a> |
+							        <a href="#" >8月27日</a> |
+							        <a href="#" >8月28日</a> |
+							        <a href="#" >8月29日</a> |
+							        <a href="#" >8月30日</a> |
+                                    <input name="newFlightDay" type="text" class="textbox width60" id="newFlightDay">
+							        <img src="../images/data.gif" name="dateLinkNewflight" id="dateLinkNewflight">
+						        </td>
+					        </tr>
+				        </table>	
+                        <!--承运1-->				        
+                        <table cellpadding="0" cellspacing="0" class="tickets">
+                            <tr>      
+                                <td class="font_grey12bold td_title">航班号</td>
+                                <td class="font_grey12bold td_title">航班日期</td>
+                                <td class="font_grey12bold td_title">起飞时间</td>
+                                <td class="font_grey12bold td_title">到达时间</td>
+                                <td class="font_grey12bold td_title">机型</td>
+                                <td class="font_grey12bold td_title">价格</td>
+								<td class="font_grey12bold td_title">选择</td>
+                            </tr>
+                            <tr>
+                                <td class="td_bg border_grey_bottom">
+                                    <div class="aclogo_dxh">TL1102</div>
+                                </td>
+                                <td class="td_bg border_grey_bottom"><span class="font_black12">2011-08-24</span></td>
+                                <td class="td_bg border_grey_bottom">08:30</td>
+                                <td class="td_bg border_grey_bottom">10:43</td>
+                                <td class="td_bg border_grey_bottom">738</td>
+                                <td class="td_bg border_grey_bottom">￥1967.00</td>
+								<td class="td_bg border_grey_bottom">
+								<input type="radio" value="" name="flightId"/>
+								</td>
+                            </tr>
+                            <tr>
+                                <td class="td_bg border_grey_bottom">
+                                    <div class="aclogo_dxh">TL1102</div>
+                                </td>
+                                <td class="td_bg border_grey_bottom"><span class="font_black12">2011-08-24</span></td>
+                                <td class="td_bg border_grey_bottom">08:30</td>
+                                <td class="td_bg border_grey_bottom">10:43</td>
+                                <td class="td_bg border_grey_bottom">738</td>
+                                <td class="td_bg border_grey_bottom">￥1967.00</td>
+								<td class="td_bg border_grey_bottom">
+								<input type="radio" value="" name="flightId"/>
+								</td>
+                            </tr>
+							<tr>
+                                <td class="td_bg border_grey_bottom">
+                                    <div class="aclogo_dxh">TL1102</div>
+                                </td>
+                                <td class="td_bg border_grey_bottom"><span class="font_black12">2011-08-24</span></td>
+                                <td class="td_bg border_grey_bottom">08:30</td>
+                                <td class="td_bg border_grey_bottom">10:43</td>
+                                <td class="td_bg border_grey_bottom">738</td>
+                                <td class="td_bg border_grey_bottom">￥1967.00</td>
+								<td class="td_bg border_grey_bottom">
+								<input type="radio" value="" name="flightId"/>
+								</td>
+                            </tr>	 
+                        </table>
+                       
+                        </table>
+				        <!--选择旅客人数-->		        
+				        <table class="searchFlight select_pepole" cellpadding="0" cellspacing="0">
+					        <tr>
+						        <td class="select_pepole_header font_black12bold border_rightbottom">请选择旅客人数：</td>
+					        </tr>
+					        <tr>
+						        <td class="border_rightbottom height40">
+					                成人
+					                <select name="adult" id="adult">									
+							            <option value=1 selected="selected">1</option>
+							            <option value=2>2</option>
+							            <option value=3>3</option>
+							            <option value=4>4</option>
+							            <option value=5>5</option>
+							            <option value=6>6</option>
+							            <option value=7>7</option>
+							            <option value=8>8</option>
+							            <option value=9>9</option>
+						            </select>						
+                                    儿童
+                                    <select name="child" id="child">
+								        <option value=0 selected="selected">0</option>
+								        <option value=1>1</option>
+								        <option value=2>2</option>
+								        <option value=3>3</option>
+								        <option value=4>4</option>
+								        <option value=5>5</option>
+							        </select>
+							        婴儿
+                                    <select name="infaint" id="infaint">
+								        <option value=0 selected="selected">0</option>
+								        <option value=1>1</option>
+								        <option value=2>2</option>
+								        <option value=3>3</option>
+								        <option value=4>4</option>
+								        <option value=5>5</option>
+							        </select>
+						        </td>
+					        </tr>
+					        <tr>
+						        <td class="border_rightbottom">
+							        &nbsp;儿童指年龄满两周岁（含）但不满十二周岁的人。儿童旅客需持有户口簿或其他有效身份证件办理乘机手续。无成人陪伴儿童不支持网站购票，请旅客前往当地海航直属售票处购票。
+							        <br>
+							        &nbsp;婴儿是指年龄在两周（含）以上但不满两周岁的人。婴儿旅客需持有户口簿、出生证或其他有效身份证件办理乘机手续。 
+						        </td>
+					        </tr>
+				        </table>
+				        <table class="button_list">
+                            <tr>
+                                <td>
+                                    <input type="button" class="ipt" id="Button1" value="上一步">
+                                    <input type="button" class="ipt" id="Button2" value="下一步" onclick="location.replace('preorder.html');">
+                                 </td>
+                            </tr>
+                        </table>
+  	                </div>
+               </div>
+            </div>
+            <!-- 底部版权信息开始-->
+            <div class="clear"></div>
+            <div id="footer">
+                <div id="copyright">                   
+                    <br>版权所有2007-2010北京首都航空有限公司海南易建科技股份有限公司
+                    <a href="#" target="_blank">mail to webmaster</a>&nbsp;&nbsp;
+                    <a href="#">隐私条款</a> 
+                    <a href="#">免责声明</a><br>
+                    <a href="#" target=_blank>琼icp备08100707号</a> 
+                </div>
+            </div>
+        </div>
+        <div id="spring" class="backgroundimg"></div>
+    </body>
+</html>

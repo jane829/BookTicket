@@ -1,0 +1,201 @@
+/*login页面*/
+#userloginwarp {
+	width: 966px; height: 460px;
+}
+#login {
+	padding-bottom: 0px; padding-left: 100px; width: 300px; padding-right: 0px; float: left; padding-top: 160px;
+}
+#login a {
+	font-size: 14px; font-weight: bold;
+}
+#login input {
+	line-height: 28px; padding-left: 5px;  font-size: 14px; font-weight: bold;
+}
+td.width23percent
+{
+    width:23%;
+    height:45px;
+    text-align:left;
+}
+td.width77percent
+{
+    width:77%;
+    height:45px;
+    text-align:left;
+}
+td.logintext
+{
+	font-size: 14px; font-weight: bold;
+}
+td.info
+{
+    height:30px;
+    text-align:left;
+}
+.ipts1 {
+	width: 180px; height: 28px; 
+}
+.ipts2 {
+	width: 60px; height: 28px; 
+}
+.ipts3 {
+	line-height: 19px; width: 178px;height: 19px; 
+}
+.iptlg {
+	width: 109px; height: 32px; margin-right: 15px; cursor:pointer;
+}
+img.changevalicode
+{
+    vertical-align: middle; margin: 0px;cursor:pointer;border:0;
+}
+#register {
+	padding-bottom: 0px; padding-left: 0px; width: 360px; padding-right: 60px; float: right; padding-top: 100px;
+}
+#register h1 {
+	position: absolute; padding-left: 150px; font-size: 14px;
+}
+.rigform {
+	padding-bottom: 0px; padding-left: 20px; padding-right: 0px; padding-top: 40px;
+}
+td.width20percent
+{
+    width:20%;
+    height:25px;
+    text-align:left;
+}
+td.height50
+{
+    height:50px;
+    text-align:left;
+}
+.iptre {
+	width: 109px; height: 32px; margin-right: 15px; cursor:pointer;
+}
+
+/*注册页面*/
+img.regchoose {
+    width:591px; height:301px; border:0;margin-top:50px;
+}
+table.register {
+	width:97%;margin-top:10px;margin-left:12px;	
+}
+table.register td{
+	height:25px;
+}
+table.register_text
+{
+    text-align:center;
+    height:60px;
+}
+td.register_leftinfo {
+    width:88px; text-align:right;
+}
+td.register_inputinfo {
+    width:195px; text-align:left;
+}
+td.order_leftinfo {
+    width:70px; text-align:right;
+}
+td.width88 {
+    width:88px; 
+}
+td.padding_left25 {
+	padding-left:25px;height:30px;
+}
+td.width177{
+    width:177px;
+    height:17px;
+}
+td.height20
+{
+    height:20px;
+}
+input.register {
+	padding-bottom: 0px; line-height: 16px; margin: 0px; padding-left: 0px; padding-right: 0px; height: 16px; vertical-align: middle; padding-top: 0px;
+}
+
+/**************订单页面******************/
+table.orders  {
+	padding: 0px;margin: 0px;font-size: 12px;table-layout: auto;margin-top:10px;margin-left:12px;width:97%;
+}
+table.orders td {
+	color: #000000;padding: 2px;height: 23px;white-space: nowrap;overflow: hidden;
+}
+.tableHeader {
+	height: 25px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;width:30px;
+}
+.tableHeaderOver {
+	font-weight: bolder;height: 23px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;width:30px;
+}
+.columnSeparator {
+	display: none;
+}
+.headerTitle {
+	width: 100%;display: block;padding-top: 3px;margin: 0px;margin-top: 1px;text-align: center;overflow: hidden;clear: left;
+}
+.toolbar {
+	overflow: hidden;padding: 0px;margin: 0px;margin-left:12px;width:97%;
+}
+.toolbarTable {
+	margin-top:10px;margin-left:12px;width:97%;padding: 0px;
+}
+.toolbarTable tr {
+	margin: 0px;padding: 0px;height: 35px;font-size: 12px;
+}
+.extendTool {
+	text-align: left;width: 99%;white-space: nowrap;padding-left:10px;
+}
+.pageNavigationTool {
+	white-space: nowrap;width: 40px;
+}
+.pageNav {
+	width: 20px;height: 25px;cursor: pointer;vertical-align: -2px;
+}
+.pageJumpTool {
+	text-align: center;padding: 0px 3px 0px 3px;white-space: nowrap;
+}
+.jumpPageInput {
+	vertical-align: 1px;height: 15px;width: 25px;padding-top: 1px;margin-top: 0px;display: inline-block;
+}
+.separatorTool {
+	font-size: 1px;padding: 2px;width: 3px;
+}
+.statusTool {
+	padding: 2px 3px 0px 3px;text-align: right;	white-space: nowrap;
+}
+.columnMenu {
+	z-index: 99;padding: 2px;line-height: 25px;width:110px;
+}
+
+.columnMenu hr {
+	height: 1px;
+}
+
+.itemText {
+	margin-left: 5px;
+	margin-top: 2px;
+	cursor: pointer;
+}
+.ascIcon {
+	width: 16px;height: 16px;margin-top: 3px;padding: 0px;margin-right: 1px;
+}
+
+.descIcon {
+	width: 16px;height: 16px;margin-top: 3px;padding: 0px;margin-right: 1px;
+}
+
+.defaultIcon {
+	width: 16px;height: 16px;margin-top: 3px;padding: 0px;margin-right: 1px;
+}
+tr.ordersRow td{
+	height: 25px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;font-size:8pt;width:30px;
+}
+
+/**************乘机人页面******************/
+tr.passengerRow td,
+tr.passengerRow_hover td,
+tr.passengerRow_selected td  {
+	height: 25px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;width:30px;font-size:8pt;
+}
+
+

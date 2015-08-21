@@ -1,0 +1,292 @@
+/*box1及其子元素所用样式*/
+#box1 {
+	MARGIN: 0px auto 9px; WIDTH: 966px; HEIGHT: 281px;PADDING-TOP:4px;
+}
+#airticketsbooking {
+	WIDTH: 315px; FLOAT: left;PADDING: 0px 0px 0px 4px;
+}
+.w936 {
+	WIDTH: 309px;HEIGHT: 273px; 
+}
+.indextab {
+	FLOAT: left;
+}
+.indextab UL {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 309px; PADDING-RIGHT: 0px; PADDING-TOP: 0px;
+}
+.indextab LI {
+	FLOAT: left;
+}
+.indextab LI A {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 52px; OUTLINE-STYLE: none; OUTLINE-COLOR: invert; OUTLINE-WIDTH: medium; WIDTH: 103px; DISPLAY: block; HEIGHT: 52px; CURSOR: pointer; 
+}
+.indextab LI A:hover {
+	PADDING-BOTTOM: 2px; MARGIN: 0px; WIDTH: 103px; HEIGHT: 52px; 
+}
+.hovertab,.normaltab {
+	FONT-SIZE: 14px; FONT-WEIGHT: bold; 
+}
+.hovertab a,.normaltab a {
+	TEXT-ALIGN:center; TEXT-DECORATION:none;
+}
+div.displaytab {
+	DISPLAY: block;
+	PADDING-LEFT:7px;
+}
+div.undisplaytab {
+	DISPLAY: none;
+	PADDING-LEFT:7px;
+}
+div.kpyz {
+    LINE-HEIGHT: 18px; 
+    WIDTH: 75%; 
+}
+div.kpyz h1{
+    font-size:14pt;
+    font-weight:bold;
+    padding-top:10px;
+}
+.ctt {
+	TEXT-ALIGN: left; BORDER-LEFT: 0px; WIDTH: 307px; FLOAT: left; HEIGHT: 219px;
+}
+td.bookingtype  {
+    HEIGHT:26px;
+}
+td.bookingdetail  {
+    HEIGHT:35px;
+}
+td.width25percent
+{
+    WIDTH:25%;
+    TEXT-ALIGN:right;
+}
+td.width75percent
+{
+    WIDTH:75%;
+}
+input.ipttext {
+	WIDTH:220px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; HEIGHT: 20px; 
+}
+input.ipttime {
+	WIDTH:85px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; HEIGHT: 20px; 
+}
+
+input.ipttext_150 {
+	WIDTH:150px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; HEIGHT: 20px; 
+}
+input.ipttext_85 {
+	WIDTH:85px; LINE-HEIGHT: 22px; PADDING-LEFT: 5px; HEIGHT: 20px; 
+}
+input.ipt {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 24px; FONT-WEIGHT: bold; PADDING-TOP: 1px;
+}
+.sty0417 {
+	FONT-WEIGHT: bold;
+}
+#flashbox {
+	FLOAT: left;MARGIN: 0px 0px 0px 0px;PADDING: 0px 0px 0px 0px; WIDTH: 450px; HEIGHT: 275px;
+}
+#flashbox .container {
+	WIDTH: 450px; HEIGHT: 275px; OVERFLOW: hidden; BACKGROUND-IMAGE:url(../images/flash_03.jpg);
+}
+
+#flashbox .flashnumber {
+	POSITION: relative; WIDTH: 160px; TOP: 250px; FLOAT: right; RIGHT: 10px;
+}
+#flashbox .flashnumber LI {
+	TEXT-ALIGN: center; LINE-HEIGHT: 15px; LIST-STYLE-TYPE: none; MARGIN: 1px; WIDTH: 15px; FONT-FAMILY: Arial; FLOAT: left; HEIGHT: 15px; FONT-SIZE: 12px; CURSOR: pointer;
+}
+#flashbox .flashnumber LI.on {
+	LINE-HEIGHT: 15px; WIDTH: 15px; HEIGHT: 15px; 
+}
+#adpic {
+	MARGIN: 0px 3px 0px 0px; WIDTH: 190px; FLOAT: right; HEIGHT: 275px;
+}
+#adpic A {
+	TEXT-INDENT: -999px; WIDTH: 190px; DISPLAY: block; HEIGHT: 88px; OVERFLOW: hidden
+}
+.pic1 A {
+	MARGIN-BOTTOM: 5px
+}
+.pic2 A {
+	MARGIN-BOTTOM: 5px
+}
+.pic3 A {
+	
+}
+
+
+
+/*box2及其子元素所用样式*/
+#box2 {
+	MARGIN: 0px auto 9px; WIDTH: 966px; HEIGHT: 239px;
+}
+#recommendedRoute {
+	MARGIN: 0px; WIDTH: 505px; FLOAT: left; 
+}
+#recommendedRoutebox {
+	WIDTH: 495px; HEIGHT: 239px;
+}
+div.tilRed {
+	PADDING-BOTTOM: 10px; PADDING-LEFT: 17px; PADDING-RIGHT: 0px; FONT-WEIGHT: bold; PADDING-TOP: 6px;
+}
+div.tilRed div {
+    FLOAT:right;
+}
+div.tilRed img {
+    border:0;
+}
+
+
+
+.Route {
+	LINE-HEIGHT: 27px; MARGIN: 0px 3px 0px 9px; WIDTH: 230px; FLOAT: left; HEIGHT: 27px; 
+}
+.Route A {
+    TEXT-DECORATION:none;
+}
+.Route A:hover {
+    TEXT-DECORATION:underline;
+}
+.RouteDate {
+	PADDING-LEFT: 20px; FLOAT: left;
+}
+.RouteLocale {
+	WIDTH: 85px; FLOAT: left;
+}
+.RoutePrice {
+	FLOAT: left; FONT-WEIGHT: bold;
+}
+.RoutePrice A {
+	FONT-WEIGHT: bold;
+}
+#news {
+	MARGIN: 0px 0px 0px 6px; WIDTH: 256px; FLOAT: left; HEIGHT: 239px; 
+}
+.newstil {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 25px; PADDING-LEFT: 20px; PADDING-RIGHT: 0px; HEIGHT: 27px; FONT-WEIGHT: bold; PADDING-TOP: 0px;
+}
+.newstil div {
+    PADDING-BOTTOM: 0px; PADDING-LEFT: 0px; PADDING-RIGHT: 8px; FLOAT: right; PADDING-TOP: 5px;
+}
+.newstil div img{
+    border:0;
+}
+.newsBox {
+	PADDING-BOTTOM: 0px; PADDING-LEFT: 8px; PADDING-RIGHT: 8px; HEIGHT: 190px; PADDING-TOP: 0px;
+}
+.newsItem {
+	LINE-HEIGHT: 28px; HEIGHT: 28px; CLEAR: both;
+}
+.newsContent {
+	PADDING-LEFT: 18px; FLOAT: left;
+}
+.newsContent A {
+    TEXT-DECORATION:none;
+}
+.newsContent A:hover {    
+    TEXT-DECORATION:underline;
+}
+.newsDate {
+	FLOAT: right;
+}
+#advedio {
+	MARGIN: 0px 0px 0px 4px; WIDTH: 190px; FLOAT: right
+}
+#advediotil {
+	PADDING-BOTTOM: 0px; LINE-HEIGHT: 21px; PADDING-LEFT: 5px; PADDING-RIGHT: 0px; HEIGHT: 45px; PADDING-TOP: 2px;
+}
+
+
+
+/*box3及其子元素所用样式*/
+#box3 {
+	MARGIN: 0px auto 12px; WIDTH: 966px; HEIGHT: 82px;
+}
+#box3 UL LI {
+	FLOAT: left;
+}
+#box3 UL LI A {
+	TEXT-INDENT: -999px; DISPLAY: block; OVERFLOW: hidden;
+}
+.ad1 IMG 
+{
+    BORDER:0;WIDTH:198px;HEIGHT:82px;
+}
+.ad1 A {
+	WIDTH: 188px; HEIGHT: 82px; MARGIN-RIGHT: 8px
+}
+.ad2 IMG 
+{
+    BORDER:0;WIDTH:188px;HEIGHT:82px;
+}
+.ad2 A {
+	WIDTH: 188px; HEIGHT: 82px; MARGIN-RIGHT: 50px
+}
+.P1 A {
+	MARGIN: 13px 15px 0px 0px; WIDTH: 168px; HEIGHT: 58px
+}
+.P2 A {
+	MARGIN: 13px 23px 0px 0px; WIDTH: 55px; HEIGHT: 58px
+}
+.P3 A {
+	MARGIN: 13px 25px 0px 0px; WIDTH: 40px; HEIGHT: 58px
+}
+.P4 A {
+	MARGIN: 13px 6px 0px 0px; WIDTH: 118px; HEIGHT: 58px
+}
+.P5 A {
+	MARGIN: 13px 0px 0px; WIDTH: 122px; HEIGHT: 58px
+}
+/**************航班动态页面******************/
+table.flightStatus  {
+	padding: 0px;margin: 0px;font-size: 12px;table-layout: auto;margin-top:10px;margin-left:12px;width:97%;
+}
+table.flightStatus td {
+	padding: 2px;height: 23px;white-space: nowrap;overflow: hidden;
+}
+tr.flightStatusHeader {
+	height: 35px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;font-weight:bold;
+}
+tr.flightStatusHeader td {
+    width:50px;
+}
+tr.flightRow td,
+tr.flightRow_hover td {
+	height: 25px;text-align: center;overflow: visible;padding-right: 0px;padding-top: 0px;vertical-align:middle;width:30px;font-size:8pt;
+}
+tr.flightRow_hover td {
+	font-weight:bold;
+}
+/**************资讯详细信息页面******************/
+#newsDetail   {
+    font-family:Arial, Helvetica, sans-serif; 
+    font-size:12px; 
+    background-image:none;
+    margin-top:30px;}
+table.newsDetail_header  {
+    width:704px;
+    text-align:center;
+    margin:0px auto;
+}
+table.newsDetail_table  {
+    width:704px;
+    text-align:center;
+    margin:0px auto;
+}
+td.newsDetail_title  {
+     vertical-align:middle; 
+     text-align:center; 
+     font-size:14px; 
+     font-weight:700; 
+     height:50px;
+}
+td.newsTime  {
+    height:30px ;text-align:center; padding-top:10px;
+    font-weight:700;
+}
+td.newsDetailContent  {
+    padding:20px 30px 30px; text-align:left; line-height:180%;
+    font-weight:normal;
+}
+.newcloselink:link{text-decoration: none; outline: none;}

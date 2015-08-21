@@ -1,0 +1,138 @@
+/**************航班查询页面******************/
+table.select_pepole {
+	border-left: #d3d3d3 1px solid; border-top: #d3d3d3 1px solid; color: #000000;
+}
+td.search_dateorder {
+	border-bottom: #d3d3d3 1px solid; background-color: #d1e6f7; border-top: #b9cbd9 solid;
+}
+td.select_pepole_header {
+	background-image: url(../images/title_bg.gif); 
+}
+td.border_rightbottom {
+	border-bottom: #d3d3d3 1px solid; border-right: #d3d3d3 1px solid;
+}
+table.tickets .td_title {
+	background-color: #ffffff;
+}
+table.tickets .td_bg {
+	background-color: #ffffff;
+}
+.border_grey_bottom {
+	border-bottom: #d3d3d3 1px solid;
+}
+table.tickets .td_bg_left {
+	background-color: #ffffff;
+}
+.aclogo_dxh{
+	background-image: url(../images/icon_logo_dxh.gif);
+	background-repeat: no-repeat;
+	background-position: 8px center;
+}
+.trout1{
+    background-color:#FFFFFF;
+}
+.trout1_hover{
+    background-color:#e7f4fe;
+}
+.trout1 td{
+    background-color:#FFFFFF; color:#636363;
+}
+td.dotbottom{
+    border-top:1px dashed #D6D3D6;
+}
+.trout1_hover td{
+    background-color:#e7f4fe; color:#ff0000;
+}
+.f_down {
+	background: url(../images/icon_down2.gif) no-repeat right 2px;color: #777777; 
+}
+.f_up {
+	background: url(../images/icon_up2.gif) no-repeat right 2px;color: #777777; 
+}
+
+/***********预付订单页面*************/
+table.order_person_header {
+    color: #3a3a3a;
+}
+table.order_person_info {
+    background-color:#E4484E; border-bottom: #b9cbd9 1px solid; border-right: #b9cbd9 1px solid;
+}
+table.order_person_info td {
+	background-color: #FFFFFF;	border-left: #b9cbd9 1px solid; color: #3a3a3a; border-top: #b9cbd9 1px solid; 
+}
+table.order_person_info th {
+	background-color: #d1e6f7;border-left: #b9cbd9 1px solid; color: #3a3a3a; border-top: #b9cbd9 1px solid; 
+}
+table.order_person_detail {
+    background-color:#d1e6f7; border: #b9cbd9 1px solid;
+}
+table.order_flight{
+    border-top: #b9cbd9 1px solid; border-right: #b9cbd9 1px solid;border-left: #b9cbd9 1px solid;
+}
+table.order_flight th {
+	color: #3a3a3a;background-color: #d1e6f7;border-bottom: #b9cbd9 1px solid;  
+}
+table.order_flight td {
+	color: #3a3a3a;border-bottom: #b9cbd9 1px solid;  
+}
+table.order_flight td.order_flight_footer {
+	color: #f00;background-color: #d1e6f7;border-bottom: #b9cbd9 1px solid;  
+}
+td.td_bottom {
+    border-bottom: #b9cbd9 2px solid;
+}
+
+/***********联程查询页面*************/
+table.multiway {
+    background-color: #FFFFFF;
+}
+td.flight_line {
+    color: #636363;
+}
+td.line_seperate {
+	background-color: #E2E3E5;
+}
+div.order_success_info {
+	color: #FFFFFF;
+	background-image: url(../images/success_bg.gif);
+}
+
+/***********订单详细信息页面*************/
+body.orderdetail {
+	background-image:url(../images/bg0.jpg);background-repeat:repeat-x;	background-position:0 0;background-color:#EEF7FF;color:#6a6a6a;
+}
+table.table_orderdetail{
+    background-color:#ffffff;
+}
+td.table_orderdetail_title{
+    background-color:#B1B1B1;color:#ffffff;
+}
+td.orderdetail_header{
+    border-bottom:#b1b1b1 2px solid;color:#bc0000;
+}
+table.table_orderdetail_info{
+    border:#FFFFFF 1px solid;color:#000000;
+}
+td.info_title{
+    background-color:#B1B1B1;color:#ffffff;
+}
+.personInfo {    
+    color:#a27808;
+}
+td.right_bottom_title {
+	border-right:#b9cbd9 1px solid;border-bottom:#b9cbd9 1px solid;border-left:#b9cbd9 1px solid;border-top:#b9cbd9 1px solid;background-color:#cbcbcb;color:#000000;
+}
+td.right_bottom_title_bg {
+	border-right:#b9cbd9 1px solid;border-top:#b9cbd9 1px solid;background-color:#d1e6f7;color:#000000;
+}
+td.right_bottom_orderpaid {
+	border-top:#b9cbd9 1px solid;border-right:#b9cbd9 1px solid;border-bottom:#b9cbd9 1px solid;color:#6a6a6a;
+}
+td.red {
+	color: #f00;
+}
+input.orderpaid_botton_sty {
+    color: #cd1704;	border: 1px #999999 solid;
+}
+
+
